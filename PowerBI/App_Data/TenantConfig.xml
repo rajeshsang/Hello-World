@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tenants>
+  <Tenant>
+    <ID>1</ID>
+    <name>test iframe application</name>
+    <TenantID>333C84Ab-56DB-4A17-AB14-AD5B9DFF8A81</TenantID>
+    <powerbiAccessKey>KRwIqkE2JE0E6lZ/H3ilWv0fPapuPfoRO+tfIzJVJ2XhYyF7zk+MhjcE+tCJWH5CEiYKGYY1Yf+ZQdb/Z4uh5Q==</powerbiAccessKey>
+    <powerbiApiUrl>https://api.powerbi.com</powerbiApiUrl>
+    <powerbiWorkspaceCollection>PowerBIAnalyticsTest</powerbiWorkspaceCollection>
+    <powerbiWorkspaceId>2b6646db-93cd-44d0-b2c5-1b659c84826c</powerbiWorkspaceId>    
+  </Tenant>  
+</Tenants>
