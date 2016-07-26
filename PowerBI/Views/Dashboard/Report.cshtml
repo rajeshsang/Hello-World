@@ -1,0 +1,14 @@
+﻿@model PowerBI.Models.ReportViewModel
+   
+<script src="~/Scripts/powerbi.js"></script>
+
+@*@section Breadcrumbs {
+    <ol class="breadcrumb navbar-breadcrumb">
+        <li>Analytics</li>
+        <li class="active">@Model.Report.Name</li>
+    </ol>
+}*@
+
+<div class="side-body padding-top">
+    @Html.PowerBIReportFor(m => m.Report, new { style = "height:90vh;width:100%", powerbi_access_token = Model.AccessToken })
+</div>
